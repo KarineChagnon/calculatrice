@@ -1,0 +1,8 @@
+#!/bin/bash
+#mul 6 7
+
+if [ $1 = "mul" ]
+then
+        let "resultat = $2 * $3"
+	echo "Le produit de $2 * $3 donne : $resultat"
+fi
